@@ -1,3 +1,48 @@
+// import React, { useRef } from 'react';
+// import { StyleSheet, View } from 'react-native';
+// import MapView, { Marker } from 'react-native-maps';
+
+// const App = () => {
+//   const Region = {
+//     latitude: 35.6762,
+//     longitude: 139.6503,
+//     latitudeDelta: 0.01,
+//     longitudeDelta: 0.01,
+//   };
+
+//   // const mapRef = useRef(null);
+//   return (
+//     <View style={styles.container}>
+//       <MapView
+//         style={styles.map}
+//         initialRegion={Region}
+//         // ref={mapRef}
+//       >
+//         {/* <Marker
+//           coordinate={{ latitude: 37.78825, longitude: -122.4324 }}
+//           title="Marker Title"
+//           description="Marker Description"
+//         /> */}
+//       </MapView>
+//     </View>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   container: {
+//     ...StyleSheet.absoluteFillObject,
+//     flex: 1,
+//   },
+//   map: {
+//     ...StyleSheet.absoluteFillObject,
+//     flex:1
+//   },
+
+// });
+
+// export default App;
+
+
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MapView, { Marker, Callout } from 'react-native-maps';
